@@ -42,29 +42,33 @@ def delete_task(tasks):
         except:
             print(f"'{task}' is neither an active nor completed task.")
 
-print("Welcome to ToDo list app!")
+def run():
 
-help()
+    print("Welcome to ToDo list app!")
 
-# task_list[0] is list of active tasks
-# task_list[1] is list of completed tasks
-task_list = ([],[])
+    help()
 
-while True:
+    # task_list[0] is list of active tasks
+    # task_list[1] is list of completed tasks
+    task_list = ([],[])
 
-    option = input("Enter option: ").lower()
+    while True:
 
-    if option == "add":
-        add_task(task_list)
-    elif option == "view":
-        view_tasks(task_list)
-    elif option == "complete":
-        complete_task(task_list)
-    elif option == "delete":
-        delete_task(task_list)
-    elif option == "quit":
-        break
-    elif option == "help":
-        help()
-    else:
-        print("Command unrecognized")
+        option = input("Enter option: ").lower()
+
+        if option == "add":
+            add_task(task_list)
+        elif option == "view":
+            view_tasks(task_list)
+        elif option == "complete":
+            complete_task(task_list)
+        elif option == "delete":
+            delete_task(task_list)
+        elif option == "quit":
+            break
+        elif option == "help":
+            help()
+        else:
+            print("Command unrecognized")
+
+run()
