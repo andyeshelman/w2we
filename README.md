@@ -1,7 +1,7 @@
 # A Simple TODO List App
 
 This app allows you to track both active and completed tasks from the command line.
-There are several available features which can be accessed by eneter the appropriate commands.
+There are several available features which can be accessed by entering the appropriate commands.
 
 ### adding a task
 
