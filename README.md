@@ -5,8 +5,8 @@ There are several available features which can be accessed by entering the appro
 
 ### adding a task
 
-Entering the command *add* will prompt you the for a task.
-This taks is added to your list of active tasks.
+Entering the command *add* will prompt you for a task.
+This task is added to your list of active tasks.
 
 ### completing a task
 
